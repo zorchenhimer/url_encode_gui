@@ -22,13 +22,15 @@
 		/// Required method for Designer support - do not modify
 		/// the contents of this method with the code editor.
 		/// </summary>
-		private void InitializeComponent() {
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-			this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-			this.txtInput = new System.Windows.Forms.TextBox();
-			this.button1 = new System.Windows.Forms.Button();
-			this.txtOutput = new System.Windows.Forms.TextBox();
-			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+		private void InitializeComponent ()
+		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager (typeof(Form1));
+			this.splitContainer1 = new System.Windows.Forms.SplitContainer ();
+			this.txtInput = new System.Windows.Forms.TextBox ();
+			this.button1 = new System.Windows.Forms.Button ();
+			this.txtOutput = new System.Windows.Forms.TextBox ();
+			// Mono breaks here.
+			//((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit ();
 			this.splitContainer1.Panel1.SuspendLayout();
 			this.splitContainer1.Panel2.SuspendLayout();
 			this.splitContainer1.SuspendLayout();
@@ -100,7 +102,8 @@
 			this.splitContainer1.Panel1.PerformLayout();
 			this.splitContainer1.Panel2.ResumeLayout(false);
 			this.splitContainer1.Panel2.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+			// Mono breaks here too.
+			//((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
 			this.splitContainer1.ResumeLayout(false);
 			this.ResumeLayout(false);
 
