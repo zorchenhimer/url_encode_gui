@@ -1,4 +1,4 @@
-﻿Copyright (C) 2014 Nick Schebenpflug
+﻿Copyright (C) 2014 Nick Scheibenpflug
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
